@@ -1,0 +1,9 @@
+a=input("Enter first string:")
+res=''
+i=0
+while i<len(a):
+    letter=a[i]
+    num=int(a[i+1])
+    res=res+letter*num
+    i=i+2
+print("Output:",res)
